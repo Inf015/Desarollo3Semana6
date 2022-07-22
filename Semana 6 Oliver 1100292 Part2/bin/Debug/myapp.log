@@ -1,0 +1,112 @@
+2022-07-10 14:06:11,349 [1] ERROR Semana_6_Oliver_1100292_Part2.Program - System.ServiceModel.EndpointNotFoundException: No había ningún extremo escuchando en http://localhost:50289/MyWS.asmx que pudiera aceptar el mensaje. La causa suele ser una dirección o una acción SOAP incorrecta. Consulte InnerException, si está presente, para obtener más información. ---> System.Net.WebException: No es posible conectar con el servidor remoto ---> System.Net.Sockets.SocketException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:50289
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+
+Server stack trace: 
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   en System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   en System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en Semana_6_Oliver_1100292_Part2.WS.MyWSSoap.HelloWorld(HelloWorldRequest request)
+   en Semana_6_Oliver_1100292_Part2.WS.MyWSSoapClient.Semana_6_Oliver_1100292_Part2.WS.MyWSSoap.HelloWorld(HelloWorldRequest request) en C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\Connected Services\WS\Reference.cs:línea 349
+   en Semana_6_Oliver_1100292_Part2.WS.MyWSSoapClient.HelloWorld() en C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\Connected Services\WS\Reference.cs:línea 355
+   en Semana_6_Oliver_1100292_Part2.Program.Main(String[] args) en C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\Program.cs:línea 21
+2022-07-10 14:13:12,833 [1] ERROR Semana_6_Oliver_1100292_Part2.Program - System.ServiceModel.EndpointNotFoundException: No había ningún extremo escuchando en http://localhost:50289/MyWS.asmx que pudiera aceptar el mensaje. La causa suele ser una dirección o una acción SOAP incorrecta. Consulte InnerException, si está presente, para obtener más información. ---> System.Net.WebException: No es posible conectar con el servidor remoto ---> System.Net.Sockets.SocketException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:50289
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+
+Server stack trace: 
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   en System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   en System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en Semana_6_Oliver_1100292_Part2.WS.MyWSSoap.HelloWorld(HelloWorldRequest request)
+   en Semana_6_Oliver_1100292_Part2.WS.MyWSSoapClient.Semana_6_Oliver_1100292_Part2.WS.MyWSSoap.HelloWorld(HelloWorldRequest request) en C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\Connected Services\WS\Reference.cs:línea 349
+   en Semana_6_Oliver_1100292_Part2.WS.MyWSSoapClient.HelloWorld() en C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\Connected Services\WS\Reference.cs:línea 355
+   en Semana_6_Oliver_1100292_Part2.Program.Main(String[] args) en C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\Program.cs:línea 21
+2022-07-10 14:14:59,413 [1] DEBUG Semana_6_Oliver_1100292_Part2.Program - se llamo el HW
+2022-07-10 19:54:10,316 [1] DEBUG Semana_6_Oliver_1100292_Part2.Program - Persona resistrada
+2022-07-10 21:12:49,979 [1] DEBUG Semana_6_Oliver_1100292_Part2.Program - Caso Registrada
+2022-07-10 22:10:54,569 [1] ERROR Semana_6_Oliver_1100292_Part2.Program - System.ServiceModel.EndpointNotFoundException: No había ningún extremo escuchando en http://localhost:50289/MyWS.asmx que pudiera aceptar el mensaje. La causa suele ser una dirección o una acción SOAP incorrecta. Consulte InnerException, si está presente, para obtener más información. ---> System.Net.WebException: No es posible conectar con el servidor remoto ---> System.Net.Sockets.SocketException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:50289
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+
+Server stack trace: 
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   en System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   en System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en Semana_6_Oliver_1100292_Part2.WS.MyWSSoap.RegistroCaso(RegistroCasoRequest request)
+   en Semana_6_Oliver_1100292_Part2.WS.MyWSSoapClient.Semana_6_Oliver_1100292_Part2.WS.MyWSSoap.RegistroCaso(RegistroCasoRequest request) en C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\Connected Services\WS\Reference.cs:línea 492
+   en Semana_6_Oliver_1100292_Part2.WS.MyWSSoapClient.RegistroCaso(Caso caso) en C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\Connected Services\WS\Reference.cs:línea 499
+   en Semana_6_Oliver_1100292_Part2.Program.Main(String[] args) en C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\Program.cs:línea 51
+2022-07-10 22:16:55,739 [1] ERROR Semana_6_Oliver_1100292_Part2.Program - System.ServiceModel.EndpointNotFoundException: No había ningún extremo escuchando en http://localhost:50289/MyWS.asmx que pudiera aceptar el mensaje. La causa suele ser una dirección o una acción SOAP incorrecta. Consulte InnerException, si está presente, para obtener más información. ---> System.Net.WebException: No es posible conectar con el servidor remoto ---> System.Net.Sockets.SocketException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión 127.0.0.1:50289
+   en System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   en System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   --- Fin del seguimiento de la pila de la excepción interna ---
+
+Server stack trace: 
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   en System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   en System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en Semana_6_Oliver_1100292_Part2.WS.MyWSSoap.RegistroCaso(RegistroCasoRequest request)
+   en Semana_6_Oliver_1100292_Part2.WS.MyWSSoapClient.Semana_6_Oliver_1100292_Part2.WS.MyWSSoap.RegistroCaso(RegistroCasoRequest request) en C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\Connected Services\WS\Reference.cs:línea 492
+   en Semana_6_Oliver_1100292_Part2.WS.MyWSSoapClient.RegistroCaso(Caso caso) en C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\Connected Services\WS\Reference.cs:línea 499
+   en Semana_6_Oliver_1100292_Part2.Program.Main(String[] args) en C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\Program.cs:línea 51
+2022-07-10 22:20:10,453 [1] DEBUG Semana_6_Oliver_1100292_Part2.Program - Caso Registrado
+2022-07-10 22:21:27,091 [1] DEBUG Semana_6_Oliver_1100292_Part2.Program - Persona Registrada
+2022-07-10 22:26:59,885 [1] DEBUG Semana_6_Oliver_1100292_Part2.Program - Caso Registrado
+2022-07-10 22:29:53,792 [1] DEBUG Semana_6_Oliver_1100292_Part2.Program - Caso Registrado
+2022-07-10 22:31:54,816 [1] DEBUG Semana_6_Oliver_1100292_Part2.Program - Persona Registrada

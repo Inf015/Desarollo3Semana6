@@ -1,0 +1,13 @@
+C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\obj\Debug\Semana 6 Oliver 1100292 Part2.csproj.AssemblyReference.cache
+C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\obj\Debug\Semana 6 Oliver 1100292 Part2.csproj.SuggestedBindingRedirects.cache
+C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\obj\Debug\Semana 6 Oliver 1100292 Part2.csproj.CoreCompileInputs.cache
+C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\bin\Debug\Semana 6 Oliver 1100292 Part2.exe.config
+C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\bin\Debug\Semana 6 Oliver 1100292 Part2.exe
+C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\bin\Debug\Semana 6 Oliver 1100292 Part2.pdb
+C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\bin\Debug\DesteSoft.SoapClient.dll
+C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\obj\Debug\Semana 6 Oliver 1100292 Part2.csproj.CopyComplete
+C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\obj\Debug\Semana 6 Oliver 1100292 Part2.exe
+C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\obj\Debug\Semana 6 Oliver 1100292 Part2.pdb
+C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\bin\Debug\log4net.dll
+C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\bin\Debug\log4net.xml
+C:\Users\olive\source\Desarrollo 3\Semana 6 Oliver 1100292\Semana 6 Oliver 1100292 Part2\bin\Debug\log4net.config
